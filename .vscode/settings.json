@@ -1,0 +1,76 @@
+{
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 20000,
+  "editor.fontSize": 15,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorWidth": 3,
+  "editor.colorDecorators": true,
+  // "editor.fontFamily":"'Operator Mono Lig',Menlo,Monaco,'Courier New',Monospace",
+  "editor.fontFamily": "Operator Mono Lig",
+  "editor.fontLigatures": true,
+  "editor.renderWhitespace": "all",
+  "workbench.colorCustomizations": {
+    "editorCursor.background": "#00fdd3",
+    "editorCursor.foreground": "#00fdd3",
+    "terminalCursor.foreground": "#ffff00"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "entity.other.attribute-name,comment",
+        // "scope":"entity.other.attribute-name,comment",
+        "settings": {
+          //   "foreground": "#c9bebe",
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "terminal.integrated.cursorWidth": 1,
+  "key": "ctrl+shift+l",
+  "command": "lorem-ipsum.paragraph",
+  "when": "editorTextFocus",
+  "tabnine.experimentalAutoImports": true,
+  "git.autofetch": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "terminal.integrated.fontFamily": "Fira Code",
+  "editor.cursorSurroundingLines": 5,
+  "workbench.colorTheme": "Learn with Sumit - Peace of the eye - Dracula version",
+  "editor.fontWeight": "normal",
+  // Theme
+
+  // config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "javascript.validate.enable": false, //disable all built-in syntax checking
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.alwaysShowStatus": true,
+  //   "prettier.disableLanguages": ["javascript", "javascriptreact"],
+  // emmet
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
+}
