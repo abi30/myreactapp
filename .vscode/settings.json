@@ -54,7 +54,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
     "editor.formatOnSave": false,
-    "editor.defaultFormatter": null
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[javascriptreact]": {
     "editor.formatOnSave": false,
@@ -67,7 +67,7 @@
     "source.organizeImports": true
   },
   "eslint.alwaysShowStatus": true,
-  //   "prettier.disableLanguages": ["javascript", "javascriptreact"],
+  // "prettier.disableLanguages": ["javascript", "javascriptreact"],
   // emmet
   "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
