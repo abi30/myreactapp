@@ -21,10 +21,18 @@
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": "entity.other.attribute-name,comment",
+        "scope": "entity.other.attribute-name",
+        // "scope":"entity.other.attribute-name",
+        "settings": {
+          "foreground": "#0ae232",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "comment",
         // "scope":"entity.other.attribute-name,comment",
         "settings": {
-          //   "foreground": "#c9bebe",
+          // "foreground": "#818181",
           "fontStyle": "italic"
         }
       }

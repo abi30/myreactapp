@@ -1,22 +1,21 @@
 import React from 'react';
+
 import ReactDOM from 'react-dom/client';
 
-class Clock {
-    // eslint-disable-next-line class-methods-use-this
-    print() {
+// eslint-disable-next-line react/prefer-stateless-function
+class Clock extends React.Component {
+    render() {
         return (
             <h1 className="heading">
-                <span className="text">Hello world {new Date().toLocaleTimeString()}</span>
+                <span className="text">Hello Today : {new Date().toLocaleTimeString()}</span>
                 <img src="" alt="" />
             </h1>
         );
     }
 }
-const ClockComponent = new Clock();
-ClockComponent.print();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-root.render(ClockComponent.print());
+root.render(<Clock locale="bn-BD" />);
 
 // export default Clock;
