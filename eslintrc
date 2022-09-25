@@ -1,5 +1,11 @@
 {
-  "extends": ["airbnb", "airbnb/hooks", "eslint:recommended", "prettier", "plugin:jsx-a11y/recommended"],
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "eslint:recommended",
+    "prettier",
+    "plugin:jsx-a11y/recommended"
+  ],
   "parser": "@babel/eslint-parser",
   "parserOptions": {
     "sourceType": "module",
@@ -24,7 +30,10 @@
     "react/jsx-filename-extension": [
       1,
       {
-        "extensions": [".js", ".jsx"]
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
       }
     ],
     "prettier/prettier": [
@@ -39,5 +48,9 @@
       }
     ]
   },
-  "plugins": ["prettier", "react", "react-hooks"]
+  "plugins": [
+    "prettier",
+    "react",
+    "react-hooks"
+  ]
 }

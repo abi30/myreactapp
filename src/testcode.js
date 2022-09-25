@@ -52,3 +52,6 @@ reportWebVitals();
 //     );
 //     root.render(element);
 // }, 1000);
+
+
+// eslint-disable-next-line react/prefer-stateless-function
